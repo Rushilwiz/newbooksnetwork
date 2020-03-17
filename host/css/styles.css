@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+html {
+     margin: 0;
+     padding: 0;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+
+body {
+  background: url('res/nbn_banner.jpg');
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-page {
+     position: absolute;
+     width: 97%;
+     height: 95vh;
+     background-color: white;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+}
+
+.page {
+     position: absolute;
+     width: 97%;
+     height: 100vh;
+     background-color: white;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+}
+
+.row-80 {
+     height: 75%;
+
+}
+
+.row-20 {
+     height: 25%;
+}
+
+.row-50 {
+     height: 50%;
+}
+
+.col-25 {
+     width: 100%;
+     height: 90%;
+     float:right;
+     margin: 0;
+     padding: 0;
+}
+
+.col-50{
+    width: 50%;
+    margin: 0;
+    padding: 0;,
+}
+
+.col-75 {
+     width: 100%;
+     height: 90%;
+     float:left;
+     margin: 0;
+     padding: 0;
+}
+
+.col-90 {
+    width: 90%;
+}
+
+.col-10 {
+    width: 10%;
+}
+
+.header {
+     font-size: 200%;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     text-align: center;
+     margin-bottom: 0;
+}
+
+.subheader {
+    margin: 10px 0;
+    font-weight: 300;
+    text-align: center;
+}
+
+.navbar {
+     width: 100%;
+     margin: auto;
+     padding: 0;
+     list-style: none;
+}
+
+.navbar li {
+     display: inline-block;
+     width: 13%;
+     float: center;
+     text-align: center;
+     padding: 14px 16px;
+}
+
+.navlink {
+     padding: 14px 16px;
+     text-align: center;
+     border: 2px #000 solid;
+     transition: .15s ease-in;
+     text-decoration: none;
+     color: #000;
+     text-transform: uppercase;
+     font-size: 85%;
+}
+
+.navlink:hover {
+     border-color: #fff;
+     background: #000;
+     color: #fff;
+     cursor: pointer;
+     font-size: 100%;
+     letter-spacing: 1px;
+}
+
+.active {
+    background: #ffd1dc !important;
+    color: #fff !important;
+    border: 0px !important;
+}
+
+.main-notice {
+     padding-right: 20px;
+     text-indent: 2.5em;
+     text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input, select {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button, .newbook-form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.login-form {
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4), 0 10px 10px 0 rgba(0, 0, 0, 0.44);
+}
+
+.newbook-form {
+    margin: 0 auto;
+    width: 50%;
+}

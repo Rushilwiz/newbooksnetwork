@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+html {
+     overflow: hidden;
+}
+
+body {
+  background: url('res/nbn_banner.jpg');
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+.create-page {
+     position: absolute;
+     width: 97%;
+     height: 95vh;
+     background-color: white;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+}
+
+.page2 {
+     width: 750px;
+     padding: 8% 0 0;
+     margin: auto;
+}
+
+form h2 {
+     font-family: 'Roboto', sans-serif;
+     font-weight: 300;
+     text-align: center;
+     font-size: 130%;
+}
+
+.mid-33 {
+     height: 50%;
+     width: 33%;
+     margin-left: auto;
+     margin-right: auto;
+     top: 50%;
+}
+
+.create-header {
+     text-align: center;
+     font-weight: 300;
+     font-family: 'Roboto', sans-serif;
+     margin-top: 75px;
+     font-size: 150%;
+}
+
+.video-header {
+     text-align: center;
+     font-weight: normal;
+     font-family: 'Roboto', sans-serif;
+     margin-left: 50px;
+     margin-right: 50px;
+     font-size: 140%;
+     margin-bottom: 0px;
+}
+
+.video-subheader {
+     text-align: center;
+     font-weight: 300;
+     font-family: 'Roboto', sans-serif;
+     margin-left: 50px;
+     margin-right: 50px;
+     font-size: 120%;
+     margin-top: 0px;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+
+a {
+     text-decoration: none;
+}
